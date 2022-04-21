@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.7, pytest-7.1.1, pluggy-1.0.0
+rootdir: D:\Work\TestTasks\TestTaskSI\task_1
+collected 8 items
+
+tests.py::test_analyse[test_programm0-4] PASSED                          [ 12%]
+tests.py::test_analyse[test_programm1-6] PASSED                          [ 25%]
+tests.py::test_analyse[test_programm2-18] PASSED                         [ 37%]
+tests.py::test_analyse[test_programm3-18] PASSED                         [ 50%]
+tests.py::test_analyse[test_programm4-20] PASSED                         [ 62%]
+tests.py::test_analyse[test_programm5-16] PASSED                         [ 75%]
+tests.py::test_analyse[test_programm6-14] PASSED                         [ 87%]
+tests.py::test_analyse[test_programm7-16] PASSED                         [100%]
+
+============================== 8 passed in 0.01s ==============================
