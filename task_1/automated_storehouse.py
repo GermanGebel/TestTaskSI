@@ -1,9 +1,9 @@
+from test_data import *
 import logging
+
 logging.basicConfig(filename="work.log", level=logging.DEBUG, filemode='w', \
                     format='%(asctime)s - %(levelname)s: %(message)s', encoding='utf-8')
 
-ADD = 'принять'
-OUT = 'выгрузить'
 
 class StoreLine:
     def __init__(self) -> None:
@@ -88,19 +88,8 @@ def analyse(programm: list[tuple[str, int]]) -> int:
     return store_line.get_spent_energy()
 
 def update_logs():
-    sets = [
-        ([(ADD, 46), (OUT, 46), (ADD, 21), (OUT, 21)], 4),
-        ([(ADD, 1), (ADD, 2), (OUT, 1), (ADD, 3), (ADD, 4), (OUT, 3)], 6),
-        ([(ADD, 1), (ADD, 2), (ADD, 3), (OUT, 1), (ADD, 4), (ADD, 5), 
-            (ADD, 6), (OUT, 4), (OUT, 5), (OUT, 3), (OUT, 2), (ADD, 7), (ADD, 8), (OUT, 7)], 18),
-        ([(ADD, 1), (ADD, 2), (ADD, 3), (ADD, 4), (ADD, 5), (ADD, 6), 
-            (ADD, 7), (ADD, 8), (ADD, 9), (OUT, 6), (OUT, 3), (OUT, 1), (OUT, 2), (OUT, 7)], 18),
-        ([(ADD, 1), (ADD, 2), (ADD, 3), (ADD, 4), (OUT, 1), (ADD, 5), (ADD, 6), 
-            (ADD, 7), (ADD, 8), (ADD, 9), (OUT, 6), (OUT, 3), (OUT, 2), (OUT, 7)], 20),
-        ([(ADD, 1), (ADD, 2), (ADD, 3), (ADD, 4), (ADD, 5), (OUT, 4), (OUT, 1), (OUT, 5), (OUT, 3), (OUT, 2)], 16)
-    ]
-    for s in sets:
-        analyse(s[0])
+    for data in test_data:
+        analyse(data[0])
 
 if __name__ == '__main__':
     update_logs()
