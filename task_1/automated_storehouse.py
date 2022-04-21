@@ -1,7 +1,7 @@
 from test_data import *
 import logging
 
-logging.basicConfig(filename="work.log", level=logging.DEBUG, filemode='w', \
+logging.basicConfig(filename="analyse.log", level=logging.DEBUG, filemode='w', \
                     format='%(asctime)s - %(levelname)s: %(message)s', encoding='utf-8')
 
 

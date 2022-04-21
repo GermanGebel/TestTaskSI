@@ -1,0 +1,129 @@
+2022-04-21 21:33:12,483 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,483 - INFO: m = 3, n = 3, p = [6, 2, 3]
+2022-04-21 21:33:12,483 - INFO: First strategy: [6, 2, 3]. Total sum: 11
+2022-04-21 21:33:12,483 - INFO: Temporary strategy: [6, 0, 6]. Its sum: 12
+2022-04-21 21:33:12,483 - INFO: NEW STRATEGY: [6, 0, 6]. TOTAL SUM: 12
+2022-04-21 21:33:12,483 - INFO: Temporary strategy: [6, 2, 3]. Its sum: 11
+2022-04-21 21:33:12,483 - INFO: FINAL STRATEGY: [6, 0, 6]. TOTAL SUM: 12
+2022-04-21 21:33:12,483 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,484 - INFO: m = 3, n = 3, p = [2, 4, 8]
+2022-04-21 21:33:12,484 - INFO: First strategy: [2, 4, 8]. Total sum: 14
+2022-04-21 21:33:12,484 - INFO: Temporary strategy: [2, 0, 2]. Its sum: 4
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [2, 4, 8]. Its sum: 14
+2022-04-21 21:33:12,485 - INFO: FINAL STRATEGY: [2, 4, 8]. TOTAL SUM: 14
+2022-04-21 21:33:12,485 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,485 - INFO: m = 4, n = 4, p = [1, 2, 3, 4]
+2022-04-21 21:33:12,485 - INFO: First strategy: [1, 2, 3, 4]. Total sum: 10
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 0, 1, 2]. Its sum: 4
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 2, 0, 1]. Its sum: 4
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 2, 3, 4]. Its sum: 10
+2022-04-21 21:33:12,485 - INFO: FINAL STRATEGY: [1, 2, 3, 4]. TOTAL SUM: 10
+2022-04-21 21:33:12,485 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,485 - INFO: m = 6, n = 3, p = [9, 1, 3]
+2022-04-21 21:33:12,485 - INFO: First strategy: [9, 1, 3, 9, 1, 3]. Total sum: 26
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [9, 0, 9, 0, 9, 1]. Its sum: 28
+2022-04-21 21:33:12,485 - INFO: NEW STRATEGY: [9, 0, 9, 0, 9, 1]. TOTAL SUM: 28
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [9, 1, 0, 9, 1, 3]. Its sum: 23
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [9, 1, 3, 0, 9, 1]. Its sum: 23
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [9, 1, 3, 9, 0, 9]. Its sum: 31
+2022-04-21 21:33:12,485 - INFO: NEW STRATEGY: [9, 1, 3, 9, 0, 9]. TOTAL SUM: 31
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [9, 1, 3, 9, 1, 3]. Its sum: 26
+2022-04-21 21:33:12,485 - INFO: FINAL STRATEGY: [9, 1, 3, 9, 0, 9]. TOTAL SUM: 31
+2022-04-21 21:33:12,485 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,485 - INFO: m = 10, n = 5, p = [1, 6, 7, 2, 3]
+2022-04-21 21:33:12,485 - INFO: First strategy: [1, 6, 7, 2, 3, 1, 6, 7, 2, 3]. Total sum: 38
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 0, 1, 0, 1, 0, 1, 0, 1, 6]. Its sum: 11
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 6, 0, 1, 6, 0, 1, 6, 0, 1]. Its sum: 22
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 6, 7, 0, 1, 6, 7, 0, 1, 6]. Its sum: 35
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 6, 7, 2, 0, 1, 6, 7, 2, 3]. Its sum: 35
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 6, 7, 2, 3, 0, 1, 6, 7, 2]. Its sum: 35
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 6, 7, 2, 3, 1, 0, 1, 6, 7]. Its sum: 34
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 6, 7, 2, 3, 1, 6, 0, 1, 6]. Its sum: 33
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 6, 7, 2, 3, 1, 6, 7, 0, 1]. Its sum: 34
+2022-04-21 21:33:12,485 - INFO: Temporary strategy: [1, 6, 7, 2, 3, 1, 6, 7, 2, 3]. Its sum: 38
+2022-04-21 21:33:12,486 - INFO: FINAL STRATEGY: [1, 6, 7, 2, 3, 1, 6, 7, 2, 3]. TOTAL SUM: 38
+2022-04-21 21:33:12,486 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,486 - INFO: m = 20, n = 10, p = [1, 2, 5, 7, 9, 5, 3, 9, 4, 1]
+2022-04-21 21:33:12,486 - INFO: First strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 5, 7, 9, 5, 3, 9, 4, 1]. Total sum: 92
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 2]. Its sum: 12
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2]. Its sum: 21
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 0, 1, 2, 5, 0, 1, 2, 5, 0, 1, 2, 5, 0, 1, 2, 5, 7]. Its sum: 47
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 0, 1, 2, 5, 7, 0, 1, 2, 5, 7, 0, 1, 2, 5, 7, 9]. Its sum: 69
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 0, 1, 2, 5, 7, 9, 0, 1, 2, 5, 7, 9, 0, 1, 2]. Its sum: 75
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 0, 1, 2, 5, 7, 9, 5, 0, 1, 2, 5, 7, 9, 5]. Its sum: 87
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 0, 1, 2, 5, 7, 9, 5, 3, 0, 1, 2, 5, 7]. Its sum: 79
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 0, 1, 2, 5, 7, 9, 5, 3, 9, 0, 1, 2]. Its sum: 85
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 0, 1, 2, 5, 7, 9, 5, 3, 9, 4, 1]. Its sum: 91
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 0, 1, 2, 5, 7, 9, 5, 3, 9, 4]. Its sum: 91
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 0, 1, 2, 5, 7, 9, 5, 3, 9]. Its sum: 88
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 0, 1, 2, 5, 7, 9, 5, 3]. Its sum: 81
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 5, 0, 1, 2, 5, 7, 9, 5]. Its sum: 83
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 5, 7, 0, 1, 2, 5, 7, 9]. Its sum: 85
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 5, 7, 9, 0, 1, 2, 5, 7]. Its sum: 85
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 5, 7, 9, 5, 0, 1, 2, 5]. Its sum: 83
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 5, 7, 9, 5, 3, 0, 1, 2]. Its sum: 81
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 5, 7, 9, 5, 3, 9, 0, 1]. Its sum: 88
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 5, 7, 9, 5, 3, 9, 4, 1]. Its sum: 92
+2022-04-21 21:33:12,486 - INFO: FINAL STRATEGY: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 1, 2, 5, 7, 9, 5, 3, 9, 4, 1]. TOTAL SUM: 92
+2022-04-21 21:33:12,486 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,486 - INFO: m = 15, n = 15, p = [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 2, 3, 1, 4, 5]
+2022-04-21 21:33:12,486 - INFO: First strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 2, 3, 1, 4, 5]. Total sum: 61
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]. Its sum: 8
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 5]. Its sum: 20
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 0, 1, 2, 5, 0, 1, 2, 5, 0, 1, 2, 5]. Its sum: 32
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 0, 1, 2, 5, 7, 0, 1, 2, 5, 7, 9]. Its sum: 54
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 0, 1, 2, 5, 7, 9, 0, 1, 2, 5]. Its sum: 56
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 0, 1, 2, 5, 7, 9, 5, 0, 1]. Its sum: 59
+2022-04-21 21:33:12,486 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 0, 1, 2, 5, 7, 9, 5, 3]. Its sum: 64
+2022-04-21 21:33:12,486 - INFO: NEW STRATEGY: [1, 2, 5, 7, 9, 5, 3, 0, 1, 2, 5, 7, 9, 5, 3]. TOTAL SUM: 64
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 0, 1, 2, 5, 7, 9, 5]. Its sum: 70
+2022-04-21 21:33:12,487 - INFO: NEW STRATEGY: [1, 2, 5, 7, 9, 5, 3, 9, 0, 1, 2, 5, 7, 9, 5]. TOTAL SUM: 70
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 0, 1, 2, 5, 7, 9]. Its sum: 69
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 0, 1, 2, 5, 7]. Its sum: 61
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 2, 0, 1, 2, 5]. Its sum: 56
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 2, 3, 0, 1, 2]. Its sum: 54
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 2, 3, 1, 0, 1]. Its sum: 53
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [1, 2, 5, 7, 9, 5, 3, 9, 4, 1, 2, 3, 1, 4, 5]. Its sum: 61
+2022-04-21 21:33:12,487 - INFO: FINAL STRATEGY: [1, 2, 5, 7, 9, 5, 3, 9, 0, 1, 2, 5, 7, 9, 5]. TOTAL SUM: 70
+2022-04-21 21:33:12,487 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,487 - INFO: m = 5, n = 5, p = [5, 5, 1, 2, 9]
+2022-04-21 21:33:12,487 - INFO: First strategy: [5, 5, 1, 2, 9]. Total sum: 22
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 0, 5, 0, 5]. Its sum: 15
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 5, 0, 5, 5]. Its sum: 20
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 5, 1, 0, 5]. Its sum: 16
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 5, 1, 2, 9]. Its sum: 22
+2022-04-21 21:33:12,487 - INFO: FINAL STRATEGY: [5, 5, 1, 2, 9]. TOTAL SUM: 22
+2022-04-21 21:33:12,487 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,487 - INFO: m = 5, n = 5, p = [5, 6, 1, 2, 3]
+2022-04-21 21:33:12,487 - INFO: First strategy: [5, 6, 1, 2, 3]. Total sum: 17
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 0, 5, 0, 5]. Its sum: 15
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 6, 0, 5, 6]. Its sum: 22
+2022-04-21 21:33:12,487 - INFO: NEW STRATEGY: [5, 6, 0, 5, 6]. TOTAL SUM: 22
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 6, 1, 0, 5]. Its sum: 17
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 6, 1, 2, 3]. Its sum: 17
+2022-04-21 21:33:12,487 - INFO: FINAL STRATEGY: [5, 6, 0, 5, 6]. TOTAL SUM: 22
+2022-04-21 21:33:12,487 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,487 - INFO: m = 6, n = 6, p = [5, 5, 1, 2, 3, 4]
+2022-04-21 21:33:12,487 - INFO: First strategy: [5, 5, 1, 2, 3, 4]. Total sum: 20
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 0, 5, 0, 5, 5]. Its sum: 20
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 5, 0, 5, 5, 1]. Its sum: 21
+2022-04-21 21:33:12,487 - INFO: NEW STRATEGY: [5, 5, 0, 5, 5, 1]. TOTAL SUM: 21
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 5, 1, 0, 5, 5]. Its sum: 21
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 5, 1, 2, 0, 5]. Its sum: 18
+2022-04-21 21:33:12,487 - INFO: Temporary strategy: [5, 5, 1, 2, 3, 4]. Its sum: 20
+2022-04-21 21:33:12,488 - INFO: FINAL STRATEGY: [5, 5, 0, 5, 5, 1]. TOTAL SUM: 21
+2022-04-21 21:33:12,488 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,488 - INFO: m = 6, n = 5, p = [5, 5, 1, 2, 9]
+2022-04-21 21:33:12,488 - INFO: First strategy: [5, 5, 1, 2, 9, 5]. Total sum: 27
+2022-04-21 21:33:12,488 - INFO: Temporary strategy: [5, 0, 5, 0, 5, 5]. Its sum: 20
+2022-04-21 21:33:12,488 - INFO: Temporary strategy: [5, 5, 0, 5, 5, 1]. Its sum: 21
+2022-04-21 21:33:12,488 - INFO: Temporary strategy: [5, 5, 1, 0, 5, 5]. Its sum: 21
+2022-04-21 21:33:12,488 - INFO: Temporary strategy: [5, 5, 1, 2, 0, 5]. Its sum: 18
+2022-04-21 21:33:12,488 - INFO: Temporary strategy: [5, 5, 1, 2, 9, 5]. Its sum: 27
+2022-04-21 21:33:12,488 - INFO: FINAL STRATEGY: [5, 5, 1, 2, 9, 5]. TOTAL SUM: 27
+2022-04-21 21:33:12,488 - INFO: 🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃
+2022-04-21 21:33:12,488 - INFO: m = 3, n = 9, p = [5, 5, 1, 2, 9, 1, 1, 1, 1]
+2022-04-21 21:33:12,488 - INFO: First strategy: [5, 5, 1]. Total sum: 11
+2022-04-21 21:33:12,488 - INFO: Temporary strategy: [5, 0, 5]. Its sum: 10
+2022-04-21 21:33:12,488 - INFO: Temporary strategy: [5, 5, 1]. Its sum: 11
+2022-04-21 21:33:12,488 - INFO: FINAL STRATEGY: [5, 5, 1]. TOTAL SUM: 11
